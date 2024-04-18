@@ -1,0 +1,15 @@
+Total images = 724
+Bounding box txt files = 724
+Total folder 1448 files
+
+Class = Weapons
+
+Weapons types:
+Knife
+Pistol
+Rifles 
+
+weight file trained on 2000 epoches
+
+224 primary images
+500 secondary images
