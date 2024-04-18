@@ -23,3 +23,5 @@ When prompted, enter the path to the image you want to analyze.
 The script will process the image and display it with a bounding box around any detected guns.
 
 Note: Make sure to have the necessary YOLO model files (Yolov3.weights, yolov3_t.cfg) and class labels (dataset info.txt) in the specified paths for the script to work correctly.
+
+![ScreenShot](https://github.com/hija-happy/Weapon-Detection-Yolo/assets/116438494/d4b452f7-7496-471e-a857-d7d423665c29)
