@@ -2,6 +2,18 @@
 
 This Python script is designed to detect weapons in images using a pre-trained YOLO (You Only Look Once) object detection model. 
 
+## Table of Contents
+
+- [How to Use](#how-to-use)
+- [How It Works](#how-it-works)
+- [Steps](#steps)
+- [Requirements](#requirements)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Steps](#steps-1)
+- [Result](#result)
+
+
 ## How to Use
 
 **Input:**  
@@ -29,11 +41,43 @@ If the script detects a weapon in the image with confidence above a certain thre
 
 ## Steps
 
-1. Run the script.
-2. When prompted, enter the path to the image you want to analyze.
-3. The script will process the image and display it with a bounding box around any detected weapons.
+  1. Run the script.
+  2. When prompted, enter the path to the image you want to analyze.
+  3. The script will process the image and display it with a bounding box around any detected weapons.
 
-*Note:*  
-Make sure to have the necessary YOLO model files (`yolov3.weights`, `yolov3_t.cfg`) and class labels (`dataset info.txt`) in the specified paths for the script to work correctly.
+## Requirements
 
+Make sure to have the necessary YOLO model files (`yolov3.weights`, `yolov3_t.cfg`) and class labels (`dataset info.txt`) in the specified paths for the script to work correctly. 
+
+You can download the required YOLOv3 weights file from the following Kaggle dataset:
+
+- [Kaggle Weapon Detection Dataset](https://www.kaggle.com/datasets/syedwajeeh19/weapon-detection-dataset-for-yolov3)
+
+## Installation
+
+### Prerequisites
+
+- Python 3.x
+- OpenCV
+- NumPy
+
+### Steps
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/hija-happy/Weapon-Detection-Yolo.git
+   cd Weapon-Detection-Yolo
+   ```
+
+2. **Install Required Packages**
+
+    ```bash
+    pip install opencv-python numpy
+    ```
+3. **Download YOLO Weights**
+
+   Download the YOLOv3 weights file from Kaggle and place it in the appropriate directory.
+
+## Result
 ![ScreenShot](https://github.com/hija-happy/Weapon-Detection-Yolo/assets/116438494/d4b452f7-7496-471e-a857-d7d423665c29)
